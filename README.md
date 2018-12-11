@@ -17,13 +17,10 @@ Zur Vorbereitung eines Repositories, in dem Sie ihre Inhalte erstellen können, 
 
 ## Vorgehen zur lokalen Initialisierung des eigenen Repositories
 
-Nachdem Sie das Repository auf den lokalen Rechner geclont haben, ist es sinnvoll einige Initialisierungs-Schritte durchzuführen, um das Repository für die Erstellung von PDF- und HTML-Versionen vorzubereiten. Nutzen Sie dazu das Terminal, wechseln Sie in den Ordner, in dem Sie das Repository geclont haben und führen Sie folgende Kommandos aus:
+Nachdem Sie das Repository auf den lokalen Rechner geclont haben, ist es sinnvoll einige Initialisierungs-Schritte durchzuführen, um das Repository für die Erstellung von PDF- und HTML-Versionen vorzubereiten. Nutzen Sie dazu das Terminal, wechseln Sie in den Ordner, in dem Sie das Repository geclont haben und führen Sie das folgende Kommando aus:
 
 ```bash
-git submodule add https://github.com/tfragner/pandoc-scripts.git bin
-git submodule add https://github.com/tfragner/vs-code-pandoc.git .vscode
-git submodule add https://github.com/tfragner/pandoc-environment.git .pandoc
-git submodule update -init -recursive
+git submodule update --init --recursive
 ```
 
 Ihr Repository enthält nun die Skripte und Templates für das Rendering von PDFs und HTML-Versionen als Submodule, die unabhängig von Ihren Inhalten aktuell gehalten werden können.
