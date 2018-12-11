@@ -1,0 +1,36 @@
+---
+# latex settings
+classoption: 
+  - oneside
+#  - draft
+
+# titelpage settings
+titlepage: true
+jku: true
+titlepage-color: "06386e"
+titlepage-text-color: "FFFFFF"
+titlepage-rule-color: "FFFFFF"
+titlepage-rule-height: 1
+# link settings
+colorlinks: true
+
+# toc settings
+numbersections: true
+toc: true
+lof: true
+lot: true
+
+verbatim-in-note: true
+codeBlockCaptions: true
+caption-justification: centering
+
+date: \today
+# other parameters
+# jku related settings
+project: Communications Engineering VL
+contributors: ["Stefan Oppl"]
+contact: stefan.oppl@jku.at
+# topic: Topic
+
+lang: de
+---

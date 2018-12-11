@@ -1,0 +1,9 @@
+[submodule "bin"]
+	path = bin
+	url = https://github.com/tfragner/pandoc-scripts.git
+[submodule ".vscode"]
+	path = .vscode
+	url = https://github.com/tfragner/vs-code-pandoc.git
+[submodule ".pandoc"]
+	path = .pandoc
+	url = https://github.com/tfragner/pandoc-environment.git

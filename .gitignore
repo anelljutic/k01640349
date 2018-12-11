@@ -1,0 +1,7 @@
+/build
+/venv
+TEMP*
+*.tex
+index.pdf
+book*.pdf
+.DS_Store
